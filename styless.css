@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #fefefe;
+  color: #333;
+  line-height: 1.6;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  max-height: 220px;
+  overflow: hidden;
+}
+
+.banner-img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.overlay h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
+
+.overlay span {
+  color: #7BC043;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #87004b;
+  margin-bottom: 15px;
+}
+
+.nombre {
+  font-style: italic;
+  font-size: 1.3rem;
+}
+
+.cedula a {
+  color: #005eff;
+  text-decoration: none;
+}
+
+.detalle {
+  margin-top: 15px;
+  font-size: 0.95rem;
+  padding: 0 10px;
+}
+
+.gracias {
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.verificacion {
+  display: inline-block;
+  background-color: #c2185b;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.verificacion:hover {
+  background-color: #a3154b;
+}
+
+.dominio {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #777;
+}
