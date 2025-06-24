@@ -16,7 +16,7 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  max-height: 30px;
+  max-height: 220px;
   overflow: hidden;
   background-color: #87004b;
 }
