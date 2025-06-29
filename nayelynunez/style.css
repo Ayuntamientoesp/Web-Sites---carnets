@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom, #fdf6f9, #f0f2ff);
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: url('Alcaldia.jpeg') center/cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding:20px;
+  max-height: 220px;
+  overflow: hidden;
+  background-color: #87004b;
+}
+
+header.stickyHeader {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 10px 20px;
+  transition: background-color 0.4s ease;
+  z-index: 100;
+}
+
+
+
+header.scrolled {
+  background-color: #000;
+  color: #fff;
+}
+
+header img {
+  height: 40px;
+  margin-right: 15px;
+}
+
+header h1 {
+  font-size: 1.2em;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: url('fondo.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h2 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+main {
+  padding: 30px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.info-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.info-box h3 {
+  color: #800080;
+  margin-bottom: 10px;
+}
+
+.info-box p {
+  margin-bottom: 10px;
+}
+
+.info-box a {
+  color: #004080;
+  text-decoration: underline;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #c2185b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #6a1b9a;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1em;
+  }
+  .hero h2 {
+    font-size: 1em;
+  }
+}
