@@ -1,8 +1,8 @@
 window.addEventListener('scroll', function () {
-  const header = document.getElementById('stickyHeader');
-  if (window.scrollY > 80) {
-    header.classList.add('scrolled');
+  const sticky = document.getElementById('nombreSticky');
+  if (window.scrollY > 200) {
+    sticky.classList.add('scrolled');
   } else {
-    header.classList.remove('scrolled');
+    sticky.classList.remove('scrolled');
   }
 });
