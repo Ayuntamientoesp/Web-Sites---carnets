@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar a{
+    font-weight: 600;
+    font-size: 18px;
+   
+}
+
+
+.carousel-item{
+    min-height: 400px;
+}
+
+.banner {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.banner {
+    margin-bottom: 0;
+    background-color: darkblue;
+}
+.informacion {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section-header{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.box-icons h5{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.section-icons{
+  margin-top: 0;
+  padding: 0%;
+}
+
+
+.btn-verificacion {
+    background-color: #0069d9; /* azul */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn-verificacion:hover {
+    background-color: #0053b3; 
+    color: #fff;
+}
+
+@media(max-width: 767px){
+    .card-title {
+        font-size: 18px;
+    }
+
+    .btn-verificacion {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .banner img {
+        max-height: 180px;
+        object-fit: cover;
+    }
+
+    .section-header {
+        padding-bottom: 2rem;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .card-title {
+        font-size: 20px;
+    }
+
+    .btn-verificacion {
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width: 769px) {
+    .card-title {
+        font-size: 24px;
+    }
+
+    .btn-verificacion {
+        font-size: 18px;
+    }
+}
+
